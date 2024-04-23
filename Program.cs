@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string connectionString = @"Server=remotemysql.com;Database=wx2j0z2kNU;Uid=wx2j0z2kNU;Pwd=tZrl2EMoOV";
+        string connectionString = @"Server=remotemysql.com;Port:3306;Database=wx2j0z2kNU;Uid=wx2j0z2kNU;Pwd=tZrl2EMoOV";
         StudentService studentService = new StudentService(connectionString);
 
         // Example usage:
